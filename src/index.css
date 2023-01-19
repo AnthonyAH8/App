@@ -1,13 +1,80 @@
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  background-color: #ffc425;
+  font-family: 'Inter', sans-serif;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+h1 {
+  font-family: 'Bevan', cursive;
+  font-size: 80px;
+  text-align: center;
+  transform: rotateZ(-5deg) skew(-20deg);
+}
+
+.flex {
+  display: flex;
+  margin: 50px;
+}
+
+.list {
+  flex-wrap: wrap;
+  gap: 100px;
+}
+
+button {
+  background-color: #e13e45;
+  padding: 10px 15px;
+  color: #fff;
+  text-transform: uppercase;
+}
+
+button:hover {
+  background-color: #e13e46b3;
+  color: white;
+}
+
+
+.list h2 {
+  font-size: 16px;
+}
+
+img {
+  height: 300px;
+  width: 100px;
+  margin-left: 150px;
+  margin-bottom: 5px;
+}
+
+.list article {
+  width: 400px;
+  display: flex;
+  background-color: #fff;
+  justify-content: space-between;
+  flex-direction: column;
+  text-align: center;
+  border-radius: 5px;
+}
+
+article:hover {
+  transform: translateY(-10px);
+}
+
+.container input {
+  padding: 10px 15px;
+  margin: 1px;
+  border: #fff;
+}
+
+.container {
+  text-align: center;
+}
+
+.list article:hover:before {
+  content: '';
+  background-color: #e13e45;
+  height: 10px;
+  width: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  border-radius: 2px;
 }
