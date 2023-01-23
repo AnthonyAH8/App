@@ -1,6 +1,7 @@
 body {
   background-color: #ffc425;
   font-family: 'Inter', sans-serif;
+  max-width: 1500px;
 }
 
 h1 {
@@ -77,4 +78,45 @@ article:hover {
   left: 0;
   top: 0;
   border-radius: 2px;
+}
+
+.result{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff;
+  max-width: 1300px;
+  position: relative;
+}
+
+.presentation{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 1000px;
+}
+
+.result article img {
+  padding: 20px;
+}
+
+span{
+  font-weight: bolder;
+}
+
+.association{
+  align-items: left;
+}
+
+.description{
+  width: 800px;
+}
+
+.ebc{
+  background-color: #e13e45;
+  width: 10px;
+  height: 10px;
+  position: absolute;
+  top: 500px;
+  left: 900px;
 }
